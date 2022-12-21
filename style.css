@@ -14,12 +14,19 @@ div {
     display: flex;
 }
 
+.ios-badge {
+    padding: 2%;
+}
+
 @media screen and (max-width: 600px) {
     .container {
       flex-direction: column;
+      justify-content: center;
     }
     .container a {
         width: 80%;
     }
+    .ios-badge {
+        padding: 0;
+    }
   }
-  
